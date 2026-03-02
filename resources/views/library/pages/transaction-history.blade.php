@@ -11,13 +11,15 @@
     </section>
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
         @if(session('success'))
-            <div class="bg-white border-l-4 border-black text-black p-4 mb-4">
-                {{ session('success') }}
+            <div class="bg-green-600 text-white p-4 mb-4 rounded flex items-center space-x-2">
+                <i class="fas fa-check-circle"></i>
+                <span>{{ session('success') }}</span>
             </div>
         @endif
         @if(session('error'))
-            <div class="bg-white border-l-4 border-black text-black p-4 mb-4">
-                {{ session('error') }}
+            <div class="bg-red-600 text-white p-4 mb-4 rounded flex items-center space-x-2">
+                <i class="fas fa-exclamation-circle"></i>
+                <span>{{ session('error') }}</span>
             </div>
         @endif
     </div>
@@ -135,7 +137,7 @@
                                     @if($trx->status == 'borrowed')
                                         <span class="inline-flex items-center px-3 py-1 text-sm font-medium bg-accent text-white rounded">Active</span>
                                     @elseif($trx->status == 'return_pending')
-                                        <span class="inline-flex items-center px-3 py-1 text-sm font-medium bg-yellow-500 text-black rounded">Pending Admin</span>
+                                        <span class="inline-flex items-center px-3 py-1 text-sm font-medium bg-yellow-500 text-black rounded">Pending</span>
                                     @elseif($trx->status == 'returned')
                                         <span class="inline-flex items-center px-3 py-1 text-sm font-medium bg-gray-400 text-white rounded">Returned</span>
                                     @elseif($trx->status == 'late')

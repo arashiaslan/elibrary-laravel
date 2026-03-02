@@ -6,15 +6,17 @@
     <div>
         @if(session('success'))
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-                <div class="bg-white border-l-4 border-black text-black p-4">
-                    {{ session('success') }}
+                <div class="bg-green-600 text-white p-4 mb-4 rounded flex items-center space-x-2">
+                    <i class="fas fa-check-circle"></i>
+                    <span>{{ session('success') }}</span>
                 </div>
             </div>
         @endif
         @if(session('error'))
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-4">
-                <div class="bg-white border-l-4 border-black text-black p-4">
-                    {{ session('error') }}
+                <div class="bg-red-600 text-white p-4 mb-4 rounded flex items-center space-x-2">
+                    <i class="fas fa-exclamation-circle"></i>
+                    <span>{{ session('error') }}</span>
                 </div>
             </div>
         @endif

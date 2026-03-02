@@ -46,16 +46,16 @@
                     <a href="{{ route('categories.show', $cat->slug) }}" class="group block h-full">
                         <div class="bg-white border-2 border-black overflow-hidden h-full flex flex-col brutal-shadow">
                             <div class="h-24 flex items-center justify-center">
-                                <div class="w-12 h-12 bg-gray-200 flex items-center justify-center">
-                                    <i class="fas {{ $style['icon'] }} text-xl text-black"></i>
+                                <div class="w-12 h-12 {{ $style['bg'] }} flex items-center justify-center">
+                                    <i class="fas {{ $style['icon'] }} text-xl {{ $style['text'] }}"></i>
                                 </div>
                             </div>
                             <div class="p-5 flex-grow flex flex-col justify-between text-center">
                                 <div>
-                                    <h3 class="text-lg font-bold uppercase text-accent mb-1">{{ $cat->name }}</h3>
+                                    <h3 class="text-lg font-bold uppercase {{ $style['text'] }} mb-1">{{ $cat->name }}</h3>
                                     <p class="text-xs text-white inline-block px-2 py-1 mt-2 bg-accent">{{ $cat->books_count }} Buku</p>
                                 </div>
-                                <div class="mt-4 text-sm font-bold text-accent uppercase">
+                                <div class="mt-4 text-sm font-bold {{ $style['text'] }} uppercase">
                                     Lihat Koleksi <i class="fas fa-arrow-right ml-1"></i>
                                 </div>
                             </div>

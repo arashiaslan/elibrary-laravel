@@ -15,10 +15,10 @@
                         Discover, explore, and borrow from thousands of books. Your knowledge, just a click away. Start building your reading collection today.
                     </p>
                     <div class="flex flex-col sm:flex-row gap-4">
-                        <a href="#" class="px-6 py-3 bg-accent text-white font-bold border-2 border-accent hover:brightness-90 transition-smooth text-center">
+                        <a href="#" class="px-6 py-3 bg-red-600 text-white font-bold border-2 border-red-600 hover:bg-red-700 transition-smooth text-center">
                             EXPLORE BOOKS
                         </a>
-                        <a href="#" class="px-6 py-3 bg-white text-accent font-bold border-2 border-accent hover:brightness-90 transition-smooth text-center">
+                        <a href="#" class="px-6 py-3 bg-yellow-500 text-black font-bold border-2 border-yellow-500 hover:bg-yellow-600 transition-smooth text-center">
                             LEARN MORE
                         </a>
                     </div>
@@ -66,7 +66,7 @@
                                 alt="{{ $book->title }}" 
                                 class="w-full h-full object-cover"
                             >
-                            <div class="absolute top-2 right-2 bg-accent text-white px-2 py-1 text-xs font-bold">
+                            <div class="absolute top-2 right-2 bg-yellow-500 text-white px-2 py-1 text-xs font-bold">
                                 NEW
                             </div>
                         </div>
@@ -114,7 +114,7 @@
                                 alt="{{ $book->title }}" 
                                 class="w-full h-full object-cover"
                             >
-                            <div class="absolute top-2 left-2 bg-accent text-white px-2 py-1 text-xs font-bold">
+                            <div class="absolute top-2 left-2 bg-red-500 text-white px-2 py-1 text-xs font-bold">
                                 TRENDING
                             </div>
                         </div>
@@ -158,7 +158,7 @@
 
                 <!-- Feature 1 -->
                 <div class="bg-white border-2 border-black p-8 text-center brutal-shadow">
-                    <div class="w-16 h-16 bg-accent text-white flex items-center justify-center mx-auto mb-4 text-2xl">
+                    <div class="w-16 h-16 bg-red-600 text-white flex items-center justify-center mx-auto mb-4 text-2xl">
                         <i class="fas fa-book"></i>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-2 uppercase">Vast Collection</h3>
@@ -169,7 +169,7 @@
 
                 <!-- Feature 2 -->
                 <div class="bg-white border-2 border-black p-8 text-center brutal-shadow">
-                    <div class="w-16 h-16 bg-accent text-white flex items-center justify-center mx-auto mb-4 text-2xl">
+                    <div class="w-16 h-16 bg-yellow-500 text-white flex items-center justify-center mx-auto mb-4 text-2xl">
                         <i class="fas fa-lock"></i>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-2 uppercase">Secure & Private</h3>
@@ -180,7 +180,7 @@
 
                 <!-- Feature 3 -->
                 <div class="bg-white border-2 border-black p-8 text-center brutal-shadow">
-                    <div class="w-16 h-16 bg-accent text-white flex items-center justify-center mx-auto mb-4 text-2xl">
+                    <div class="w-16 h-16 bg-green-600 text-white flex items-center justify-center mx-auto mb-4 text-2xl">
                         <i class="fas fa-mobile-alt"></i>
                     </div>
                     <h3 class="text-xl font-bold text-black mb-2 uppercase">Read Anywhere</h3>
