@@ -7,7 +7,7 @@
     <meta name="keywords" content="e-library, books, digital library, borrowing">
     <meta name="author" content="E-Library Team">
     <meta name="theme-color" content="#1F2937">
-    <title>@yield('title', 'E-Library')</title>
+    <title>@yield('title', 'Minimalibrary')</title>
 
     <!-- Tailwind CSS via CDN -->
     <script src="https://cdn.tailwindcss.com"></script>

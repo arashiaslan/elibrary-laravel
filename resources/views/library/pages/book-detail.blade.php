@@ -1,6 +1,6 @@
 @extends('library.layouts.app')
 
-@section('title', $book->title . ' - E-Library')
+@section('title', $book->title . ' - Minimalibrary')
 
 @section('content')
     <div>
@@ -25,6 +25,8 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
                 <nav class="flex items-center space-x-2 text-sm text-black uppercase font-bold">
                     <a href="{{ route('home') }}" class="text-accent hover:brightness-90">home</a>
+                    <i class="fas fa-chevron-right"></i>
+                    <a href="{{ route('books.index') }}" class="text-accent hover:brightness-90">katalog buku</a>
                     <i class="fas fa-chevron-right"></i>
                     <span>{{ $book->title }}</span>
                 </nav>

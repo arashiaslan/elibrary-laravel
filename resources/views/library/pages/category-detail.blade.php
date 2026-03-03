@@ -1,6 +1,6 @@
 @extends('library.layouts.app')
 
-@section('title', 'Kategori: ' . $category->name . ' - E-Library')
+@section('title', 'Kategori: ' . $category->name . ' - Minimalibrary')
 
 @section('content')
     <div class="bg-white border-b-2 border-black">

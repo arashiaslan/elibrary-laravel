@@ -1,6 +1,6 @@
 @extends('library.layouts.app')
 
-@section('title', 'Kategori Buku - E-Library')
+@section('title', 'Kategori Buku - Minimalibrary')
 
 @section('content')
     <div class="bg-white border-b-2 border-black">

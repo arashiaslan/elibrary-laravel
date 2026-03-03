@@ -9,7 +9,7 @@
                     <div class="bg-blue-500 p-2">
                         <i class="fas fa-book text-white text-lg"></i>
                     </div>
-                    <span class="font-bold text-xl hidden sm:inline">E-Library</span>
+                    <span class="font-bold text-xl hidden sm:inline">Minimalibrary</span>
                 </a>
             </div>
 

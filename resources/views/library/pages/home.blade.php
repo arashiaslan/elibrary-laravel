@@ -1,6 +1,6 @@
 @extends('library.layouts.app')
 
-@section('title', 'Home - E-Library')
+@section('title', 'Home - Minimalibrary')
 
 @section('content')
     <!-- Hero Banner Section -->

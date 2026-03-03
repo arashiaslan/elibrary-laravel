@@ -1,6 +1,6 @@
 @extends('library.layouts.app')
 
-@section('title', 'Transaction History - E-Library')
+@section('title', 'Transaction History - Minimalibrary')
 
 @section('content')
     <section class="bg-white py-6 border-b-2 border-black">
